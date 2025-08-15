@@ -167,8 +167,8 @@ textarea { min-height: 120px; resize: vertical; }
 /* Footer */
 footer { padding: 40px 0; border-top: 1px solid var(--line); color: var(--muted); }
 .footer-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 20px; align-items: center; }
-.socials { display: flex; gap: 12px; }
-.socials a { border: 1px solid var(--line); padding: 8px 10px; border-radius: 12px; }
+.socials { display: flex; gap: 12px; margin-left: 1000px}
+.socials a { border: 1px solid var(--line); padding: 8px 10px ; border-radius: 12px; }
 .legal { font-size: 13px; color: var(--muted); }
 
 /* Responsive */
