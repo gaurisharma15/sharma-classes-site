@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <style>:root {
     --bg: #0b0b10;         /* Deep black */
     --panel: #11121a;      /* Card background */
@@ -93,7 +94,7 @@
     background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 10px;
+    padding: 18px;
     box-shadow: var(--shadow);
   }
   .score {
@@ -177,8 +178,8 @@
   /* Footer */
   footer { padding: 40px 0; border-top: 1px solid var(--line); color: var(--muted); }
   .footer-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 20px; align-items: center; }
-  .socials { display: flex; gap: 12px; }
-  .socials a { border: 1px solid var(--line); padding: 8px 10px; border-radius: 12px; }
+  .socials { display: flex; gap: 12px; margin-left: 1000px}
+  .socials a { border: 1px solid var(--line); padding: 8px 10px ; border-radius: 12px; }
   .legal { font-size: 13px; color: var(--muted); }
   
   /* Responsive */
@@ -196,8 +197,7 @@
   /* Motion preferences */
   @media (prefers-reduced-motion: reduce) {
     .cta, .card { transition: none; }
-  }
-   </style>
+  }</style>
 </head>
 <body>
   <!-- Header -->
@@ -406,5 +406,6 @@
   </script>
 </body>
 </html>
+
 
 
